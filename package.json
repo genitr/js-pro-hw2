@@ -1,0 +1,26 @@
+{
+  "name": "js_pro_hw2",
+  "version": "1.0.0",
+  "description": "Home work 2",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack serve --mode development",
+    "build": "webpack --mode production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "homework"
+  ],
+  "author": "Yura",
+  "license": "ISC",
+  "dependencies": {
+    "babel": "^5.8.38",
+    "babel-loader": "^10.0.0",
+    "css-loader": "^7.1.2",
+    "html-webpack-plugin": "^5.6.3",
+    "mini-css-extract-plugin": "^2.9.2",
+    "webpack": "^5.100.2",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.2"
+  }
+}
